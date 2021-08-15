@@ -9,7 +9,7 @@ require('dotenv').config();
 // mongoose.connect('mongodb://localhost:27017/IndependenceDay', { useUnifiedTopology: true, useNewUrlParser: true });
 mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0-8iknu.mongodb.net/IndependenceDay?retryWrites=true&w=majority`, { useUnifiedTopology: true, useNewUrlParser: true });
 
-// as
+
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -41,6 +41,35 @@ app.get('/', function (req, res) {
 
 
 
+
+app.get("/responses",(req,res)=>{
+
+     let html=`
+     <html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>RESPONSES</title>
+</head>
+<body>
+<h2>
+<a href="/responses/fest">Fest</a>
+</h2>
+<h2>
+<a href="/responses/fest">Fest</a>
+</h2>
+<h2>
+<a href="/responses/fest">Fest</a>
+</h2>
+</br>
+</body>
+</html>
+    
+     `
+     res.write(html)
+     res.send();
+})
 
 
 var MongoClient = require('mongodb').MongoClient;
@@ -208,7 +237,7 @@ app.post("/post", (req,res)=> {
           event:req.body.event
           
      })
-     res.sendFile('public/response.html', { root: __dirname });
+     // res.sendFile('public/response.html', { root: __dirname });
      fest.save(function (err, post) {
           if (err) {
             console.log("err: " + err);
