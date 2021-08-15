@@ -225,6 +225,9 @@ res.sendFile('public/odanza.html', { root: __dirname });
 app.post("/post",(req,res)=>{
      res.redirect("/");
 })
+app.get("/post",(req,res)=>{
+     res.redirect("/");
+})
 
 
 // app.post("/post", (req,res)=> {     
