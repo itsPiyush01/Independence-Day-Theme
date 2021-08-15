@@ -9,7 +9,7 @@ require('dotenv').config();
 // mongoose.connect('mongodb://localhost:27017/IndependenceDay', { useUnifiedTopology: true, useNewUrlParser: true });
 mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0-8iknu.mongodb.net/IndependenceDay?retryWrites=true&w=majority`, { useUnifiedTopology: true, useNewUrlParser: true });
 
-
+// as
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
