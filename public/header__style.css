@@ -261,6 +261,13 @@ body
      background: #ffff;
 
   }
+  #menuToggle a:nth-of-type(6):hover ~ .underbar {
+    left: 350px;
+    width: 45px;
+   
+     background: #ffff;
+
+  }
 }
 
 /*  Small desktops */
