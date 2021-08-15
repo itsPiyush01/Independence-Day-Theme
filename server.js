@@ -17,7 +17,7 @@ app.use(express.static("public"));
 app.use(express.urlencoded({
      extended: true
    }))
-
+ 
 const festSchema = new mongoose.Schema({
      name: String,
      student_id: String,
@@ -36,6 +36,27 @@ app.get('/', function (req, res) {
      res.sendFile('index.html', { root: __dirname });
      console.log(req.params.name);
 
+})
+
+
+
+
+app.get("/responses",(req,res)=>{
+
+     let html=`
+     <h2>
+     <a href="/responses/fest">Fest</a>
+     </h2>
+     <h2>
+     <a href="/responses/fest">Fest</a>
+     </h2>
+     <h2>
+     <a href="/responses/fest">Fest</a>
+     </h2>
+     </br>
+     `
+     res.write(html)
+     res.send();
 })
 
 
