@@ -33,6 +33,9 @@
           #green{
                height: 100vh;
           }
+          .heading-5{
+               font-size: 2rem;
+          }
        .footer {
          grid-template-columns: [full-start] minmax(2rem, 1fr) [center-start] repeat(10, [col-start] 2fr [col-end]) [center-end] minmax(2rem, 1fr) [full-end];
           height: 100vh
@@ -94,6 +97,7 @@
        color: white;
        text-decoration: none; }
      .navbar__nav .nav__link:after {
+          margin-top: .2rem;
        display: block;
        content: '';
        border-bottom: solid 0.1rem white;
