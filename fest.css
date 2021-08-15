@@ -55,7 +55,12 @@ ul li{
 
      /* padding: 1rem; */
      font-size: 2rem;
-     margin-bottom: 0;
+     /* margin-bottom: 10; */
+ }
+
+ #event{
+     /* margin; */
+     margin: 5rem auto;
  }
  textarea:focus,
  input[type="text"]:focus,
