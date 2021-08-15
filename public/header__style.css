@@ -256,14 +256,43 @@ body
   }
   #menuToggle a:nth-of-type(5):hover ~ .underbar {
     left: 330px;
-    width: 45px;
+    width: 95px;
+
    
      background: #ffff;
 
   }
   #menuToggle a:nth-of-type(6):hover ~ .underbar {
-    left: 350px;
+    left: 450px;
+    width: 95px;
+   
+     background: #ffff;
+
+  }
+  #menuToggle a:nth-of-type(7):hover ~ .underbar {
+    left: 570px;
     width: 45px;
+   
+     background: #ffff;
+
+  }
+  #menuToggle a:nth-of-type(8):hover ~ .underbar {
+    left: 630px;
+    width: 100px;
+   
+     background: #ffff;
+
+  }
+  #menuToggle a:nth-of-type(9):hover ~ .underbar {
+    left: 780px;
+    width: 85px;
+     background: #ffff;
+
+  }
+  #menuToggle a:nth-of-type(10):hover ~ .underbar {
+    left: 850px;
+
+    width: 100px;
    
      background: #ffff;
 
