@@ -52,7 +52,7 @@ body {
 }
 .nwQNc {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1.5rem;
     color: white;
     font-family: Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -62,10 +62,9 @@ body {
     margin-right: 3.5rem;
 }
 .ldsfKK {
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 1.5rem;
         font-weight: 400;
-        font-size: 1rem;
         line-height: 1.5rem;
         color: white;
         font-family: Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -182,6 +181,9 @@ body {
     height:100%;
     z-index: -1;
     margin: -100px 0px 0px  0px;
+    min-height: 500px;
+
+ 
 }
 
 
@@ -202,6 +204,7 @@ body {
     background-color: orange;
     /* opacity: 0.3; */
 }
+
 
 
 
