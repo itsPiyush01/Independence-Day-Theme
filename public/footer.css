@@ -7,7 +7,7 @@
 .footer {
      position: absolute;
      z-index: 1000;
-     padding-top: 10rem;
+     /* padding-top: 10rem; */
      height: max-content;
      left: 0;
      bottom: 0;
@@ -21,7 +21,7 @@
      padding: 2rem 0;
      /* font-size: 1rem !important; */
      
-     font-size:60%;    
+     font-size:50%;    
 }
 
 .heading-5{
