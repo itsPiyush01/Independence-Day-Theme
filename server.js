@@ -6,8 +6,8 @@ const { functionsIn } = require("lodash");
 require('dotenv').config();
 
 
-mongoose.connect('mongodb://localhost:27017/IndependenceDay', { useUnifiedTopology: true, useNewUrlParser: true });
-// mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0-8iknu.mongodb.net/IndependenceDay?retryWrites=true&w=majority`, { useUnifiedTopology: true, useNewUrlParser: true });
+// mongoose.connect('mongodb://localhost:27017/IndependenceDay', { useUnifiedTopology: true, useNewUrlParser: true });
+mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0-8iknu.mongodb.net/IndependenceDay?retryWrites=true&w=majority`, { useUnifiedTopology: true, useNewUrlParser: true });
 
 
 const app = express();
@@ -39,6 +39,32 @@ app.get('/', function (req, res) {
 })
 
 
+var MongoClient = require('mongodb').MongoClient;
+
+app.get("/responses/fest",function (req,res) {
+
+var mongoose = require('mongoose')
+
+Fest.find({}, function(err, users) {
+     var userMap = {};
+ 
+     users.forEach(function(user) {
+       userMap[user._id] = user;
+     });
+ 
+     // res.write("<h1>FEST</h1>");
+     res.send(userMap);  
+   });
+
+mongoose.connection.on('error', function(error){
+throw new Error(error);
+});
+   
+
+})
+
+       
+   
 
      
 app.get('/fest', function (req, res) {
@@ -52,14 +78,7 @@ app.get('/fest', function (req, res) {
 })
 
 
-app.post("/fest", (req,res)=> {
-     const name= req.body.name;
-     const student_id= req.body.student_id;
-     const year=req.body.year;
-
-     
-     console.log(student_id);
-     console.log(year);
+app.post("/fest", (req,res)=> {     
      // res.redirect("fest");
 
 
@@ -68,7 +87,7 @@ app.post("/fest", (req,res)=> {
           name: req.body.name,
           student_id: req.body.student_id,
           year: req.body.year,
-          email:"test@dkn.com"
+          email:req.body.email
      })
      res.sendFile('public/response.html', { root: __dirname });
      fest.save(function (err, post) {
@@ -82,6 +101,8 @@ app.post("/fest", (req,res)=> {
           }
         })
 })
+
+
 
 
 let port = process.env.PORT;
