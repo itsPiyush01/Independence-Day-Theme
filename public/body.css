@@ -1,169 +1,177 @@
 .bgXfJl {
-    grid-column: span 5 / span 5;
+	grid-column: span 5 / span 5;
 }
-a,div,p,h1{
-    border: 0;
-font-size: 100%;
-margin: 0;
-padding: 0;
+
+a,
+div,
+p,
+h1 {
+	border: 0;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
 }
-*, ::after, ::before {
-    -webkit-font-smoothing: antialiased;
-    box-sizing: border-box;
+
+*,
+ ::after,
+ ::before {
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
 }
+
 body {
-    line-height: 1;
+	line-height: 1;
 }
+
 .date {
-    color: #000080;
-    background: linear-gradient(170deg, rgba(255,153,51,1) 0%, rgba(255,255,255,1) 50%, rgba(19,136,8,1) 100%);
-    border-radius: 25px;
-    padding: 10px 15px;
-    width: -moz-fit-content;
-    margin-bottom: 24px;
-    width: 35%;
-    text-align: center;
-    font-size: 1rem;
- 
-    line-height: 1.5rem;
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 1.5rem;
-        font-family: Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	color: #000080;
+	background: linear-gradient(170deg, rgba(255, 153, 51, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(19, 136, 8, 1) 100%);
+	border-radius: 25px;
+	padding: 10px 15px;
+	width: -moz-fit-content;
+	margin-bottom: 24px;
+	width: 35%;
+	text-align: center;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-family: Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
 .jRwGnJ {
-    line-height: 1.25;
-    width: 83.3333%;
+	line-height: 1.25;
+	width: 83.3333%;
 }
+
 .kqflXm {
-    font-weight: 400;
-    font-size: 3rem;
-    line-height: 1;
-    color: white;
-    font-family: Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-weight: 400;
+	font-size: 3rem;
+	line-height: 1;
+	color: white;
+	font-family: Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
 .kcJkRP {
-    margin-right: 3.5rem;
-    margin-bottom: 20px;
+	margin-right: 3.5rem;
+	margin-bottom: 20px;
 }
+
 .nwQNc {
-    font-size: 1rem;
-    line-height: 1.5rem;
+	font-size: 1rem;
+	line-height: 1.5rem;
 }
+
 .nwQNc {
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    color: white;
-    font-family: Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	color: white;
+	font-family: Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .djbllW {
-    margin-right: 3.5rem;
+	margin-right: 3.5rem;
 }
+
 .ldsfKK {
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-        font-weight: 400;
-        line-height: 1.5rem;
-        color: white;
-        font-family: Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 1.3rem;
+	line-height: 1.5rem;
+	font-weight: 400;
+	line-height: 1.5rem;
+	color: white;
+	font-family: Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
 .hWajkr {
-    height: 80vh;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    -moz-box-align: center;
-    align-items: center;
-    -moz-box-pack: center;
-    justify-content: center;
-    position: relative;
-   
+	height: 80vh;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	-moz-box-align: center;
+	align-items: center;
+	-moz-box-pack: center;
+	justify-content: center;
+	position: relative;
 }
 
 .jHphVQ {
-    width: 91.6667%;
-    max-width: 80rem;
-    margin: 0px auto;
-    padding: 0.625rem;
-    overflow-y: hidden;
+	width: 91.6667%;
+	max-width: 80rem;
+	margin: 0px auto;
+	padding: 0.625rem;
+	overflow-y: hidden;
 }
 
 .iwofiH {
-    -moz-box-align: center;
-    align-items: center;
-    -moz-box-pack: center;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(12, minmax(0px, 1fr));
+	-moz-box-align: center;
+	align-items: center;
+	-moz-box-pack: center;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(12, minmax(0px, 1fr));
 }
 
 .fTgBP {
-    display: flex;
-    margin-right: 2.5rem;
+	display: flex;
+	margin-right: 2.5rem;
 }
+
 .hnsjNr {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .dhuYeS {
-    height: 3.5rem;
-    width: 10rem;
-    margin-top: 1.5rem;
-    margin-right: 1rem;
-    border-width: 0px;
-    border-radius: 9999px;
-    cursor: pointer;
+	height: 3.5rem;
+	width: 10rem;
+	margin-top: 1.5rem;
+	margin-right: 1rem;
+	border-width: 0px;
+	border-radius: 9999px;
+	cursor: pointer;
 }
 
-
-
-.hero__btn{
-    
-    border-radius: 50px;
-    background: none;
-    display: inline-block;
-    /* display: block;
+.hero__btn {
+	border-radius: 50px;
+	background: none;
+	display: inline-block;
+	/* display: block;
     width: 50%; */
-    color: white;
-    border: solid 2.5px transparent;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(120deg, #FF9933    , #138808  );
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    box-shadow: 2px 1000px 2px black inset;
-    /* margin-right: 4rem; */
-    
+	color: white;
+	border: solid 2.5px transparent;
+	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(120deg, #FF9933, #138808);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	box-shadow: 2px 1000px 2px black inset;
+	/* margin-right: 4rem; */
 }
 
-.hero__btn-light
-{
-    border-radius: 50px;
-    background: none;
-    display: inline-block;
-    /* display: block;
+.hero__btn-light {
+	border-radius: 50px;
+	background: none;
+	display: inline-block;
+	/* display: block;
     width: 50%; */
-    color: black;
-    border: solid 2.5px transparent;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(120deg, #FF9933    , #138808  );
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    box-shadow: 2px 1000px 2px white inset;
-    
-    /* margin-right: 4rem; */
-
+	color: black;
+	border: solid 2.5px transparent;
+	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(120deg, #FF9933, #138808);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	box-shadow: 2px 1000px 2px white inset;
+	/* margin-right: 4rem; */
 }
 
-
-
-.discord__icon{
-    display: inline-block;
-    vertical-align: top;
+.discord__icon {
+	display: inline-block;
+	vertical-align: top;
 }
-.hero__discord__text{
-    display: inline-block;
-    vertical-align: top;
+
+.hero__discord__text {
+	display: inline-block;
+	vertical-align: top;
 }
+
 
 /* .dhuYeS:hover {
     color:azure;
@@ -172,190 +180,424 @@ body {
     -webkit-transition:color .2s ease-in;
     background:#000080;padding:20px;
   } */
-#slidy-container { 
-    
-    position: absolute;
-    top: 0;
-    width: 100%;
-    overflow: hidden; margin: 0 auto;
-    height:100%;
-    z-index: -1;
-    margin: -100px 0px 0px  0px;
-    min-height: 500px;
 
- 
+#slidy-container {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	height: 100%;
+	z-index: -1;
+	margin: -100px 0px 0px 0px;
+	min-height: 500px;
 }
 
-
-#slidy{
-    position: relative;
+#slidy {
+	position: relative;
 }
 
-#slidy img{
-    filter: brightness(50%);
-    
-    background-color: green;
-    /* background-color:; */
-    /* height: 100vh;
+#slidy img {
+	filter: brightness(50%);
+	background-color: green;
+	/* background-color:; */
+	/* height: 100vh;
     width: 100vw; */
-    object-fit: contain;
-    
-    
-    background-color: orange;
-    /* opacity: 0.3; */
+	object-fit: contain;
+	background-color: orange;
+	/* opacity: 0.3; */
 }
 
-
-
-
-
-
-::-moz-selection { /* Code for Firefox */
-    color: white ;
-    background: #138808;
-  }
-  
-  ::selection {
-    color: white ;  
-    background: #138808;
+::-moz-selection {
+	/* Code for Firefox */
+	color: white;
+	background: #138808;
 }
+
+ ::selection {
+	color: white;
+	background: #138808;
+}
+
 
 /*! CSS Used from: Embedded */
-*,:after,:before{-webkit-font-smoothing:antialiased;box-sizing:border-box;}
-a,div,h1,img,p{border:0;font-size:100%;margin:0;padding:0;vertical-align:baseline;}
-::-webkit-scrollbar{width:5px;}
-::-webkit-scrollbar-track{background:#0e151c;height:100px;}
-::-webkit-scrollbar-thumb{background:#5f676e;border-radius:5px;}
-.TickerWrapper{padding-left:100%;}
-.TickerMover{animation-duration:15s;animation-iteration-count:infinite;animation-name:ticker;animation-timing-function:linear;padding-right:100%;}
-.TickerMover:hover{animation-play-state:paused;}
+
+*,
+:after,
+:before {
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+
+a,
+div,
+h1,
+img,
+p {
+	border: 0;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: #0e151c;
+	height: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #5f676e;
+	border-radius: 5px;
+}
+
+.TickerWrapper {
+	padding-left: 100%;
+}
+
+.TickerMover {
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-name: ticker;
+	animation-timing-function: linear;
+	padding-right: 100%;
+}
+
+.TickerMover:hover {
+	animation-play-state: paused;
+}
+
+
 /*! CSS Used from: Embedded */
 
-@media (max-width: 639px){
-.jHphVQ{padding:0px;}
-    .hWajkr{
-        height: 55vh;
-    }
-
-#slidy-container{
-margin-top: 0px;
-}
-}
-
-@media (max-width: 1279px){
-.kqflXm{font-size:3rem;line-height:1;}
-#slidy-container{
-    margin-top: 0px;
-    }
-}
-@media (max-width: 1023px){
-.kqflXm{font-size:2.25rem;line-height:2.5rem;}
-#slidy-container{
-    margin-top: 0px;
-    }
-}
-@media (max-width: 767px){
-.kqflXm{font-size:1.875rem;line-height:2.25rem;}
-#slidy-container{
-    margin-top: 0px;
-    }
-}
-@media (max-width: 639px){
-.kqflXm{font-size:1.875rem;line-height:2.25rem;}
+@media (max-width: 639px) {
+	.jHphVQ {
+		padding: 0px;
+	}
+	.hWajkr {
+		height: 55vh;
+	}
+	#slidy-container {
+		margin-top: 0px;
+	}
 }
 
-@media (max-width: 1535px){
-.ldsfKK{font-size:1rem;line-height:1.5rem;}
-}
-@media (max-width: 1023px){
-.ldsfKK{font-size:1rem;line-height:1.5rem;}
-}
-@media (max-width: 767px){
-.ldsfKK{font-size:1rem;line-height:1.5rem;}
-}
-@media (max-width: 639px){
-.ldsfKK{font-size:0.875rem;line-height:1.25rem;}
+@media (max-width: 1279px) {
+	.kqflXm {
+		font-size: 3rem;
+		line-height: 1;
+	}
+	#slidy-container {
+		margin-top: 0px;
+	}
 }
 
-@media (max-width: 1535px){
-.nwQNc{font-size:1rem;line-height:1.5rem;}
-}
-@media (max-width: 1023px){
-.nwQNc{font-size:1rem;line-height:1.5rem;}
-}
-@media (max-width: 767px){
-.nwQNc{font-size:1rem;line-height:1.5rem;}
-}
-@media (max-width: 639px){
-.nwQNc{font-size:0.875rem;line-height:1.25rem;}
+@media (max-width: 1023px) {
+	.kqflXm {
+		font-size: 2.25rem;
+		line-height: 2.5rem;
+	}
+	#slidy-container {
+		margin-top: 0px;
+	}
 }
 
-@media (max-width: 639px){
-.dhuYeS{margin:0px;}
+@media (max-width: 767px) {
+	.kqflXm {
+		font-size: 1.875rem;
+		line-height: 2.25rem;
+	}
+	#slidy-container {
+		margin-top: 0px;
+	}
 }
 
-@media (max-width: 767px){
-.bgXfJl{grid-column:span 12 / span 12;margin-top:1.5rem;}
+@media (max-width: 639px) {
+	.kqflXm {
+		font-size: 1.875rem;
+		line-height: 2.25rem;
+	}
 }
 
-@media (max-width: 767px){
-.jRwGnJ{width:100%;}
+@media (max-width: 1535px) {
+	.ldsfKK {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
 }
 
-@media (max-width: 767px){
-.djbllW{margin-right:0px;}
-}
-@media (max-width: 639px){
-.djbllW{margin-right:0px;text-align:justify;}
-}
-@media (max-width: 767px){
-.kcJkRP{margin-right:0px;}
-}
-@media (max-width: 639px){
-.kcJkRP{margin-right:0px;text-align:justify;}
+@media (max-width: 1023px) {
+	.ldsfKK {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
 }
 
-@media (max-width: 1023px){
-.iugPWj{display:block;}
-}
-@media (max-width: 767px){
-.iugPWj{display:inline-flex;}
-}
-
-@media (max-width: 639px){
-.fTgBP{margin-right:0px;-webkit-box-pack:justify;justify-content:space-between;-webkit-box-align:center;align-items:center;margin-top:1rem;}
+@media (max-width: 767px) {
+	.ldsfKK {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
 }
 
-@media (max-width: 1535px){
-.hYuGTk{font-size:1rem;line-height:1.5rem;}
-}
-@media (max-width: 1023px){
-.hYuGTk{font-size:1rem;line-height:1.5rem;}
-}
-@media (max-width: 767px){
-.hYuGTk{font-size:1rem;line-height:1.5rem;}
-}
-@media (max-width: 639px){
-.hYuGTk{font-size:0.875rem;line-height:1.25rem;}
+@media (max-width: 639px) {
+	.ldsfKK {
+		font-size: 0.875rem;
+		line-height: 1.25rem;
+	}
 }
 
-@media (max-width: 767px){
-.gpRSLU{display:none;}
+@media (max-width: 1535px) {
+	.nwQNc {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
 }
 
-@media (max-width: 767px){
-.hzcrEm{margin-top:0px;}
-.date{
-    width: 100%;
+@media (max-width: 1023px) {
+	.nwQNc {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
 }
+
+@media (max-width: 767px) {
+	.nwQNc {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
 }
-@media (max-width: 639px){
-.hzcrEm{grid-column:span 12 / span 12;-webkit-box-pack:center;justify-content:center;}
- .kcJkRP, .djbllW{
-    color: black;
+
+@media (max-width: 639px) {
+	.nwQNc {
+		font-size: 0.875rem;
+		line-height: 1.25rem;
+	}
 }
-.jRwGnJ{
-    color:white;
+
+@media (max-width: 639px) {
+	.dhuYeS {
+		margin: 0px;
+	}
 }
+
+@media (max-width: 767px) {
+	.bgXfJl {
+		grid-column: span 12 / span 12;
+		margin-top: 1.5rem;
+	}
 }
+
+@media (max-width: 767px) {
+	.jRwGnJ {
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.djbllW {
+		margin-right: 0px;
+	}
+}
+
+@media (max-width: 639px) {
+	.djbllW {
+		margin-right: 0px;
+		text-align: justify;
+	}
+}
+
+@media (max-width: 767px) {
+	.kcJkRP {
+		margin-right: 0px;
+	}
+}
+
+@media (max-width: 639px) {
+	.kcJkRP {
+		margin-right: 0px;
+		text-align: justify;
+	}
+}
+
+@media (max-width: 1023px) {
+	.iugPWj {
+		display: block;
+	}
+}
+
+@media (max-width: 767px) {
+	.iugPWj {
+		display: inline-flex;
+	}
+}
+
+@media (max-width: 639px) {
+	.fTgBP {
+		margin-right: 0px;
+		-webkit-box-pack: justify;
+		justify-content: space-between;
+		-webkit-box-align: center;
+		align-items: center;
+		margin-top: 1rem;
+	}
+}
+
+@media (max-width: 1535px) {
+	.hYuGTk {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+}
+
+@media (max-width: 1023px) {
+	.hYuGTk {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+}
+
+@media (max-width: 767px) {
+	.hYuGTk {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+}
+
+@media (max-width: 639px) {
+	.hYuGTk {
+		font-size: 0.875rem;
+		line-height: 1.25rem;
+	}
+}
+
+@media (max-width: 767px) {
+	.gpRSLU {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.hzcrEm {
+		margin-top: 0px;
+	}
+	.date {
+		width: 50%;
+	}
+}
+
+@media (max-width: 639px) {
+	.hzcrEm {
+		grid-column: span 12 / span 12;
+		-webkit-box-pack: center;
+		justify-content: center;
+	}
+	.kcJkRP,
+	.djbllW {
+		color: black;
+	}
+	.jRwGnJ {
+		color: white;
+	}
+}
+
+
 /*! CSS Used keyframes */
+
+
+/*! CSS Used from: Embedded */
+
+*,
+:after,
+:before {
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+
+div,
+img {
+	border: 0;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: #0e151c;
+	height: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #5f676e;
+	border-radius: 5px;
+}
+
+.TickerWrapper {
+	padding-left: 100%;
+}
+
+.TickerMover {
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-name: ticker;
+	animation-timing-function: linear;
+	padding-right: 100%;
+}
+
+.TickerMover:hover {
+	animation-play-state: paused;
+}
+
+
+/*! CSS Used from: Embedded */
+
+.logodiv {
+	display: inline-block;
+	margin: 0.5rem 3rem;
+	height: 70px;
+	width: auto;
+}
+
+.logoclass {
+	display: inline-block;
+	vertical-align: middle;
+	transform: scale(0.8);
+}
+
+.tickercont {
+	background-color: black;
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0px;
+}
+
+.tickerwrap {
+	width: 100%;
+}
+
+.tickermov {
+	display: inline-block;
+	white-space: nowrap;
+}
+
+
+/*! CSS Used keyframes */
+
+@keyframes ticker {
+	0% {
+		transform: translateZ(0);
+	}
+	to {
+		transform: translate3d(-200%, 0, 0);
+	}
+}
