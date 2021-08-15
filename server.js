@@ -222,33 +222,34 @@ res.sendFile('public/odanza.html', { root: __dirname });
 
 })
 
+app.post("/post",(req,res)=>{
+     res.redirect("/");
+})
 
 
-
-
-app.post("/post", (req,res)=> {     
-     // res.redirect("fest");
+// app.post("/post", (req,res)=> {     
+//      // res.redirect("fest");
      
-     const fest = new Fest({
-          name: req.body.name,
-          student_id: req.body.student_id,
-          year: req.body.year,
-          email:req.body.email,
-          event:req.body.event
+//      const fest = new Fest({
+//           name: req.body.name,
+//           student_id: req.body.student_id,
+//           year: req.body.year,
+//           email:req.body.email,
+//           event:req.body.event
           
-     })
-     // res.sendFile('public/response.html', { root: __dirname });
-     fest.save(function (err, post) {
-          if (err) {
-            console.log("err: " + err);
-            res.redirect("/");
-          }
-          else {
-          // res.redirect("fest");
-          res.sendFile('public/response.html', { root: __dirname });
-          }
-        })
-     })
+//      })
+//      res.sendFile('public/response.html', { root: __dirname });
+//      fest.save(function (err, post) {
+//           if (err) {
+//             console.log("err: " + err);
+//             res.redirect("/");
+//           }
+//           else {
+//           // res.redirect("fest");
+//           res.sendFile('public/response.html', { root: __dirname });
+//           }
+//         })
+//      })
 
 
 
