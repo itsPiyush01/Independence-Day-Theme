@@ -16,7 +16,7 @@ body {
 }
 .date {
     color: #000080;
-    background: linear-gradient(180deg, rgba(255,153,51,1) 0%, rgba(255,255,255,1) 50%, rgba(19,136,8,1) 100%);
+    background: linear-gradient(170deg, rgba(255,153,51,1) 0%, rgba(255,255,255,1) 50%, rgba(19,136,8,1) 100%);
     border-radius: 25px;
     padding: 10px 15px;
     width: -moz-fit-content;
@@ -117,13 +117,62 @@ body {
     border-radius: 9999px;
     cursor: pointer;
 }
-.dhuYeS:hover {
+
+
+
+.hero__btn{
+    
+    border-radius: 50px;
+    background: none;
+    display: inline-block;
+    /* display: block;
+    width: 50%; */
+    color: white;
+    border: solid 2.5px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(120deg, #FF9933    , #138808  );
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 2px black inset;
+    /* margin-right: 4rem; */
+    
+}
+
+.hero__btn-light
+{
+    border-radius: 50px;
+    background: none;
+    display: inline-block;
+    /* display: block;
+    width: 50%; */
+    color: black;
+    border: solid 2.5px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(120deg, #FF9933    , #138808  );
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 2px white inset;
+    
+    /* margin-right: 4rem; */
+
+}
+
+
+
+.discord__icon{
+    display: inline-block;
+    vertical-align: top;
+}
+.hero__discord__text{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* .dhuYeS:hover {
     color:azure;
     -moz-transition:color .1s ease-in;
     -o-transition:color .1s ease-in;
     -webkit-transition:color .2s ease-in;
     background:#000080;padding:20px;
-  }
+  } */
 #slidy-container { 
     
     position: absolute;
@@ -154,3 +203,16 @@ body {
     /* opacity: 0.3; */
 }
 
+
+
+
+
+::-moz-selection { /* Code for Firefox */
+    color: white ;
+    background: #138808;
+  }
+  
+  ::selection {
+    color: white ;  
+    background: #138808;
+}

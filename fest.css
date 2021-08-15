@@ -1,0 +1,147 @@
+.bgXfJl{
+
+     text-align: center;
+     grid-column: 4 / span 6;
+}
+
+.bgXfJl *{
+     margin-left: auto;
+     margin-right:auto;
+
+}
+.date {
+     color: black;
+     margin:0 auto;
+     margin-bottom: 24px;
+}
+
+.hero__codex__logo{
+     margin-top: 2rem;
+     height: 8rem;
+     width: 8rem;
+     height: auto;
+ }
+
+
+ .font-weight-700{
+      font-weight: 700 ;
+ }
+
+ p{
+      font-size: 1.2rem;
+ }
+
+.form {
+     font-size: 1rem !important;
+}
+
+ul li{
+     font-size: 1rem;
+}
+
+ .form *{
+     padding: .3rem;
+ } 
+
+ .form .dash__{
+      
+     margin-top: 0;
+     /* height: .1rem; */
+     padding: 0;
+     height: .3rem;
+ }
+ 
+ .event__register{
+
+     /* padding: 1rem; */
+     font-size: 2rem;
+     margin-bottom: 0;
+ }
+ textarea:focus,
+ input[type="text"]:focus,
+ input[type="password"]:focus,
+ input[type="date"]:focus,
+ input[type="month"]:focus,
+ input[type="time"]:focus,
+ input[type="week"]:focus,
+ input[type="number"]:focus,
+ input[type="email"]:focus,
+ input[type="url"]:focus,
+ input[type="search"]:focus,
+ input[type="select"]:focus,
+ input[type="tel"]:focus,
+ input[type="color"]:focus,
+ .uneditable-input:focus, 
+ #year:focus
+ {
+      
+     
+
+     /* border-color: rgba(126, 239, 104, 0.8);
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+     */
+     border-color: #138808;  
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+     outline: 0 none;
+ }
+
+ .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+     background-color: #138808 !important;
+     
+     
+     
+}
+
+.lhjff{
+     /* text-align: start */
+     text-align: center;
+     /* width: 50%; */
+     display: inline-block;
+     /* justify-content: flex-start; */
+}
+.event__div
+{
+     /* padding: 20r5em; */
+     /* margin-right: 10rem; */
+}
+.jsdg12{
+     display: inline-block;
+}
+
+.sjdbfh1{
+     display: block;
+     width: 40%;
+     /* dispay:inline- ; */
+     margin: 0 auto;
+}
+
+.jsdg12:first-child{
+     margin-left: 0;
+     margin-right: 10rem;
+}
+
+.event__time{
+     /* height: 20rem;/ */
+     font-size: 1.5rem;
+}
+.jkshgdh{
+     font-size: 0.9rem;
+}
+
+ .dash__{
+     background-color: #FF9933  ;
+     margin: 0;
+     height: .4rem;
+     width: 80px;
+     display: inline-block;
+
+     }
+h2{
+
+          /* color:gri */
+          margin-bottom: 0rem;
+}
+
+.about__the__event{
+     margin-bottom: 0rem !important;
+}
